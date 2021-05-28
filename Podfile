@@ -8,4 +8,7 @@ target 'Base Project' do
   # Pods for Base Project
 	pod 'Alamofire'
 	pod 'SDWebImage'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 end

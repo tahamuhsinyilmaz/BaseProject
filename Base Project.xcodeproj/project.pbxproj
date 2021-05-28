@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F95E72226610E2500C09C30 /* GenericParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95E72126610E2500C09C30 /* GenericParser.swift */; };
+		1F95E724266111D400C09C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F95E723266111D400C09C30 /* GoogleService-Info.plist */; };
 		1F977188265ED90D000AFB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F977187265ED90D000AFB17 /* AppDelegate.swift */; };
 		1F97718A265ED90D000AFB17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F977189265ED90D000AFB17 /* SceneDelegate.swift */; };
 		1F97718C265ED90D000AFB17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F97718B265ED90D000AFB17 /* ViewController.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F95E72126610E2500C09C30 /* GenericParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericParser.swift; sourceTree = "<group>"; };
+		1F95E723266111D400C09C30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F977184265ED90D000AFB17 /* Base Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F977187265ED90D000AFB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F977189265ED90D000AFB17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 		1F977186265ED90D000AFB17 /* Base Project */ = {
 			isa = PBXGroup;
 			children = (
+				1F95E723266111D400C09C30 /* GoogleService-Info.plist */,
 				1F977195265ED910000AFB17 /* Info.plist */,
 				1F9771B3265EDA9E000AFB17 /* Handlers */,
 				1F9771AF265EDA06000AFB17 /* Constants */,
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				1F9771B4265EDC1C000AFB17 /* KeyChainManager.swift */,
+				1F95E72126610E2500C09C30 /* GenericParser.swift */,
 				1F9771AC265ED9F2000AFB17 /* RequestManager.swift */,
 				1F9771A0265ED993000AFB17 /* FontSearcher.swift */,
 				1F9771A6265ED9D5000AFB17 /* SDWebImageHandler.swift */,
@@ -231,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F977194265ED910000AFB17 /* LaunchScreen.storyboard in Resources */,
+				1F95E724266111D400C09C30 /* GoogleService-Info.plist in Resources */,
 				1F977191265ED910000AFB17 /* Assets.xcassets in Resources */,
 				1F97718F265ED90D000AFB17 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +300,7 @@
 				1F977188265ED90D000AFB17 /* AppDelegate.swift in Sources */,
 				1F9771AD265ED9F2000AFB17 /* RequestManager.swift in Sources */,
 				1F97719F265ED980000AFB17 /* Strings.swift in Sources */,
+				1F95E72226610E2500C09C30 /* GenericParser.swift in Sources */,
 				1F97718A265ED90D000AFB17 /* SceneDelegate.swift in Sources */,
 				1F9771A7265ED9D5000AFB17 /* SDWebImageHandler.swift in Sources */,
 				1F97719D265ED97B000AFB17 /* Constants.swift in Sources */,
